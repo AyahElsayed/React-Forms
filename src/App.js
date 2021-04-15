@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import EssayForm from './Forms/Docs/EssayForm';
+import FlavorForm from './Forms/Docs/FlavorForm';
+import HandleMultiInputs from './Forms/Docs/HandleMultiInputs';
+import NameForm from './Forms/Docs/NameForm';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NameForm />
+      <br/>
+      <EssayForm />
+      <br/>
+      <FlavorForm />
+      <br/>
+      <HandleMultiInputs />
     </div>
   );
 }
