@@ -3,17 +3,21 @@ import EssayForm from './Forms/Docs/EssayForm';
 import FlavorForm from './Forms/Docs/FlavorForm';
 import HandleMultiInputs from './Forms/Docs/HandleMultiInputs';
 import NameForm from './Forms/Docs/NameForm';
+import FirstForm from './Forms/Formik/FirstForm';
 
 function App() {
   return (
     <div className="App">
-      <NameForm />
+      {/* ========Docs=========== */}
+      {/* <NameForm />
       <br/>
       <EssayForm />
       <br/>
       <FlavorForm />
       <br/>
-      <HandleMultiInputs />
+      <HandleMultiInputs /> */}
+      {/* ============ Formik ============= */}
+      <FirstForm />
     </div>
   );
 }
